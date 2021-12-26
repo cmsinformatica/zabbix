@@ -1,0 +1,7 @@
+Antes de importar o backup:
+
+SET GLOBAL foreign_key_checks=0;
+
+Depois que terminar a importação:
+
+SET GLOBAL foreign_key_checks=1;
